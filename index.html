@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Mr Fasal Wala — India's Premium Marketplace for Crops & Crop Waste</title>
+<meta name="description" content="Buy and sell crops, grains, vegetables and crop waste directly from verified farmers and sellers across India. Best mandi prices, fast delivery.">
+<meta name="theme-color" content="#166534">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌾</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<div id="header-mount"></div>
+
+<main class="page-enter">
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">🌱 India's #1 Crop &amp; Crop Waste Marketplace</span>
+      <h1>Fresh Crops. Smart Prices.<br>Zero Middlemen.</h1>
+      <p>Buy directly from verified farmers or sell your harvest and crop waste to thousands of buyers across India — at real mandi prices.</p>
+      <div class="hero-btns">
+        <a href="buy-crops.html" class="btn btn-accent pulse-btn">🌾 Buy Crops</a>
+        <a href="sell-product.html" class="btn" style="background:#fff;color:var(--dark-green);">📤 Sell Crops</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title"><span data-i18n="topCategories">Top Categories</span> <span class="tag">17 Crops</span></h2>
+    </div>
+    <div class="chip-row" id="categoryChips"></div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <h2 class="section-title"><span data-i18n="trendingProducts">Trending Products</span> <a href="buy-crops.html" class="see-all" data-i18n="seeAll">See all →</a></h2>
+    </div>
+    <div class="grid-scroll" id="trendingProducts"></div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <h2 class="section-title"><span data-i18n="todaysMarketPrices">Today's Market Prices</span> <span class="tag">Live</span></h2>
+    </div>
+    <div class="price-ticker" id="marketPrices"></div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <h2 class="section-title"><span data-i18n="popularCropWaste">Popular Crop Waste</span> <a href="crop-waste.html" class="see-all" data-i18n="seeAll">See all →</a></h2>
+    </div>
+    <div class="grid-scroll" id="popularWaste"></div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <h2 class="section-title" data-i18n="topSellers">Top Sellers</h2>
+    </div>
+    <div class="grid-scroll" id="topSellers"></div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <h2 class="section-title" data-i18n="whatFarmersSaying">What Farmers Are Saying</h2>
+    </div>
+    <div class="grid-scroll" id="farmerReviews"></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="content-card" style="margin:0;background:linear-gradient(135deg,var(--dark-green),var(--primary-green));color:#fff;">
+        <h2 style="margin:0 0 6px;font-size:18px;" data-i18n="haveCropsToSell">Have crops or crop waste to sell?</h2>
+        <p style="font-size:12.5px;opacity:.9;margin:0 0 14px;" data-i18n="listProduceDesc">List your produce in minutes and reach verified buyers across India.</p>
+        <a href="sell-product.html" class="btn" style="background:#fff;color:var(--dark-green);">Start Selling →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="footer-mount"></div>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/components.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
